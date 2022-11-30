@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a78fea4-b405-4a35-bbf9-6488d6711cb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snmp_hw1_java_client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes_for_table_views/SysGroupRowInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fxmls/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fxmls/page1.fxml" afterDir="false" />
+    <list default="true" id="0a78fea4-b405-4a35-bbf9-6488d6711cb8" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxmls/page1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxmls/page1.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +69,16 @@
       <option name="presentableId" value="Default" />
       <updated>1669714097531</updated>
       <workItem from="1669714098973" duration="2948000" />
-      <workItem from="1669783132805" duration="4661000" />
+      <workItem from="1669783132805" duration="7521000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1669820126079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669820126079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

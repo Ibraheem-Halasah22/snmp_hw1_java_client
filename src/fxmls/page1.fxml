@@ -7,13 +7,12 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="545.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Page1Controller">
    <children>
       <Button layoutX="32.0" layoutY="46.0" mnemonicParsing="false" onAction="#goBack" prefHeight="26.0" prefWidth="176.0" text="Go Back" />
       <Button layoutX="32.0" layoutY="107.0" mnemonicParsing="false" onAction="#fillTableWithSysGroupData" prefHeight="26.0" prefWidth="176.0" text="Show System Group Data" />
-      <Button layoutX="32.0" layoutY="318.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="176.0" text="Edit Data Using GET" />
-      <Button layoutX="32.0" layoutY="365.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="176.0" text="Edit Data Using POST" />
+      <Button layoutX="32.0" layoutY="318.0" mnemonicParsing="false" onAction="#setUsingGet" prefHeight="26.0" prefWidth="176.0" text="Edit Data Using GET" />
+      <Button layoutX="32.0" layoutY="365.0" mnemonicParsing="false" onAction="#setUsingPost" prefHeight="26.0" prefWidth="176.0" text="Edit Data Using POST" />
       <TextField fx:id="sysLocationTextField" layoutX="32.0" layoutY="194.0" prefHeight="26.0" prefWidth="176.0" promptText="SysLocation" />
       <TextField fx:id="sysContactTextField" layoutX="32.0" layoutY="259.0" prefHeight="26.0" prefWidth="176.0" promptText="SysContact" />
       <TableView fx:id="sysGroupDataTable" layoutX="300.0" layoutY="33.0" prefHeight="359.0" prefWidth="414.0">
