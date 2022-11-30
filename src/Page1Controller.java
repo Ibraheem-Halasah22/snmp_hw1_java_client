@@ -15,7 +15,6 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import org.json.JSONObject;
 
-import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -66,7 +65,6 @@ public class Page1Controller implements Initializable {
         connection.setUseCaches(false);
         connection.setConnectTimeout(5000);
         connection.setRequestMethod(verb);
-        System.out.println(connection.getRequestProperties());
         int status = connection.getResponseCode();
         System.out.println(status);
         if (status > 299) {
