@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../openjfx-17.0.1_windows-x64_bin-sdk/javafx-sdk-17.0.1/lib" />
+      <root url="jar://$USER_HOME$/Downloads/json-20220924.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../openjfx-17.0.1_windows-x64_bin-sdk/javafx-sdk-17.0.1/lib" recursive="false" />
+  </library>
+</component>

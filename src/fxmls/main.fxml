@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainView">
+   <children>
+      <Button layoutX="124.0" layoutY="163.0" mnemonicParsing="false" onAction="#goToPage1" prefHeight="26.0" prefWidth="142.0" text="Go to page 1" />
+      <Button layoutX="332.0" layoutY="163.0" mnemonicParsing="false" onAction="#goToPage3" prefHeight="26.0" prefWidth="162.0" text="Go to page 3" />
+   </children>
+</AnchorPane>
